@@ -5,7 +5,6 @@ body {
 .pagecontent {
     width: 100%;    
     position: absolute;
-    bottom: 30%;
     text-align: center;
 }
 .addtrip {
@@ -135,6 +134,7 @@ section {
 }
 .mytrips_wrapper .pagecontent {
     top: 25px;
+    background-color: #1ab188;
 }
 .upcomingtrips  {
    display: block;
@@ -255,4 +255,36 @@ section {
     color: blue;;
     font-weight: bold;
     cursor: pointer;"
+}
+.details{
+   font-weight: bolder;
+    font-size: 17px;
+    line-height: 30px;
+}
+.airline{
+    text-align: right;
+    line-height: 30px;
+    height: 45px;
+    width: 120px;
+}
+.type{
+    text-align: right;
+    line-height: 30px;
+    height: 45px;
+    width: 120px;
+}
+.view{
+    text-align: left;
+    line-height: 5px;
+    width: 145px;
+    height: 45px;
+}
+.dottetBorder{
+    border-bottom: thin dotted black;
+}
+.imgHolder{
+    line-height: 80px;
+    width: 250px;
+    height: 75px;
+    color: blue;
 }
